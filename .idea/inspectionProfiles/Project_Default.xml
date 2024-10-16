@@ -1,0 +1,25 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E265" />
+          <option value="E225" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="list.click" />
+          <option value="pageObjects.Login_Page.driver" />
+          <option value="tests.test_login.genrate_email_with_time_span" />
+          <option value="bytes.invisibility_of_element_located" />
+          <option value="bytes.element_to_be_clickable" />
+          <option value="bytes.url_contains" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
