@@ -11,11 +11,15 @@ class Amit:
         return self.__age
 
     def set_age(self,age):
-        self.__age=age
+        # self.__age=age
+        if (age > 35):
+            print("age is greater than 35")
+        else:
+            self.__age=age
 
 
 obj=Amit("pratik",12,30)
 print(obj.get_age())   # it gives first 30
-obj.set_age(35)         # again set 35
+obj.set_age(39)         # again set 35
 print(obj.get_age())      # again change 35
 

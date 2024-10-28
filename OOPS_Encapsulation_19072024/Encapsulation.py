@@ -39,10 +39,10 @@ class student:
         else:
             return self.__age
 
-obj=student("amit",2,25)
+obj=student("amit",2,85)
 print(obj.get_age())
-print(obj.set_age(65))
-
+(obj.set_age(20))
+print(obj.get_age())
 
 
 
