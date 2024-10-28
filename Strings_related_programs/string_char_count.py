@@ -1,3 +1,18 @@
+
+Given_string=str(input("any string enter: "))
+Given_string=Given_string.lower()
+
+char_count={}
+for char in Given_string:
+    if char.isalpha():
+        if char in char_count:
+            char_count[char]+=1
+        else:
+            char_count[char]=1
+
+for char,count in char_count.items():
+    print(f"{char}--{count}")
+
 # def count_character_occurrences(input_string):
 #     # Convert to lowercase
 #     input_string = input_string.lower()
@@ -22,8 +37,6 @@
 # print("Input String:", input_string)
 # print("Character Occurrences:")
 # count_character_occurrences(input_string)
-
-
 
 
 
