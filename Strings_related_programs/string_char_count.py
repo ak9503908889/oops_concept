@@ -9,7 +9,7 @@ for char in Given_string:
             char_count[char]+=1
         else:
             char_count[char]=1
-
+print(char_count)
 for char,count in char_count.items():
     print(f"{char}--{count}")
 
