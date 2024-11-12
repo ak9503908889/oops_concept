@@ -4,15 +4,19 @@ Given_string=Given_string.lower()
 
 char_count={}
 for char in Given_string:
-    if char.isalpha():
-        if char in char_count:
-            char_count[char]+=1
-        else:
-            char_count[char]=1
-print(char_count)
-for char,count in char_count.items():
-    print(f"{char}--{count}")
+    if char in char_count:
+        char_count[char]+=1
+    else:
+        char_count[char]=1
 
+print(char_count)
+
+output = ''.join(f"{char}{count}" for char, count in char_count.items())
+print(output)
+# for char,count in char_count.items():
+#     print(f"{char}--{count}")
+
+# /////////////////////////////////////////////////////////////////////////////////////
 # def count_character_occurrences(input_string):
 #     # Convert to lowercase
 #     input_string = input_string.lower()
