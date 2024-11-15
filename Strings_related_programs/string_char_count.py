@@ -13,6 +13,10 @@ print(char_count)
 
 output = ''.join(f"{char}{count}" for char, count in char_count.items())
 print(output)
+'''any string enter: amit
+{'a': 1, 'm': 1, 'i': 1, 't': 1}
+a1m1i1t1'''
+
 # for char,count in char_count.items():
 #     print(f"{char}--{count}")
 
